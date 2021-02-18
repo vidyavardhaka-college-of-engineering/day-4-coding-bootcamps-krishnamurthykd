@@ -29,8 +29,5 @@ int main()
   {
     printf("%d",a2[i]);
   }
-  
-  
- 
    return 0; 
 }
