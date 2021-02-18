@@ -14,8 +14,23 @@
 
 int main()
 {
-   int arr1[5],arr2[5];
-   int i,n;
    
+   int a1[100],a2[100],i,n;
+ printf("Enter the nor of inputs\n");
+ scanf("%d",&n);
+ printf("enter the a1 inputs\n");
+ for(i=0;i<n;i++)
+ {
+  scanf("%d",&a1[i]);
+  a2[i]=a1[i];
+ }
+  printf("elements of a2 -\n");
+  for(i=0;i<n;i++)
+  {
+    printf("%d",a2[i]);
+  }
+  
+  
+ 
    return 0; 
 }

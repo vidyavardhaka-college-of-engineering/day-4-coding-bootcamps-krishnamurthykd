@@ -8,8 +8,8 @@
 int main()
 {
  int a[100],i,n,sum=0;
- printf("Enter the nor of inputs");
- scanf("%d",&n);
+ printf("Enter the nor of inputs\n");
+ scanf("%d\n",&n);
  printf("enter the inputs\n");
  for(i=0;i<n;i++)
  {scanf("%d",&a[i]);
